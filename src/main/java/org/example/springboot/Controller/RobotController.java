@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RobotController {
 
-    @GetMapping("/robot.txt")
+    @GetMapping("/robots933456.txt")
     public ResponseEntity<String> robot(){
         return ResponseEntity.status(HttpStatus.SERVICE_UNAVAILABLE).body("503");
     }
